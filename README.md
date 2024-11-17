@@ -36,8 +36,6 @@ This script handles data preprocessing for training. It prepares and formats raw
 - **Color Jitter**: Randomly adjusts brightness, contrast, saturation, and hue of the image.
 - **Random Occlusion**: Randomly occludes portions of the image to simulate real-world occlusion scenarios.
   
-The preprocessed data is stored in a folder named `Preprocessed`.
-
 
 
 ---
@@ -126,20 +124,22 @@ The dataset used for training consists of images related to various **UAE-MBZUI 
 
 You can access the dataset from the following link: [Training Dataset](https://mbzuaiac-my.sharepoint.com/personal/anjali_khantaal_mbzuai_ac_ae/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fanjali%5Fkhantaal%5Fmbzuai%5Fac%5Fae%2FDocuments%2FProjects%2FTraining%5FData)
 
-### How to Run the Preprocessing Script
+## How to Run the Preprocessing Script
+
 Follow these steps to run the preprocessing script:
 
-1. Place your training images
-Place your training images in a folder named Training_Dataset inside the root directory of the repository.
+1. **Place Your Training Images**  
+   Place your training images in a folder named `Training_Dataset` inside the root directory of the repository.
 
-2. Run the Preprocessing Script
-To run the preprocessing script, execute the following command in your terminal:
-   ```
-   python preprocessing.py
-   ```
+2. **Run the Preprocessing Script**  
+   To run the preprocessing script, execute the following command in your terminal:
+
+   ```bash
+   python preprocess_images.py
+   
 This script will:
 
-- Process the images in the Training_Dataset folder.
+- Process the images in the `Training_Dataset` folder.
 - Apply augmentations with three different severity levels: low, medium, and high.
 - Save the preprocessed images in a new folder called `Preprocessed`.
 
