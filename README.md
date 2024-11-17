@@ -135,7 +135,7 @@ Follow these steps to run the preprocessing script:
    To run the preprocessing script, execute the following command in your terminal:
 
    ```bash
-   python preprocess_images.py
+   python preprocessing.py
    
 This script will:
 
