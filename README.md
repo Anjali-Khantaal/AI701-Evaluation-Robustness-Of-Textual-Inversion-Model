@@ -7,7 +7,9 @@ This repository contains <fill>:
 3. **Evaluataion Metrices** - This repository includes tools for evaluating AI-generated outputs using the following metrics:
    
      **FID Score**: Computes the Fréchet Inception Distance to measure similarity between real and generated images.
+   
      **CLIP Score**: Evaluates alignment between images and predefined textual prompts using CLIP models.
+   
      **Concept Accuracy Score**: Assesses adherence to specific concepts by combining ResNet predictions with CLIP-based similarity.
    
 5. **Preprocessing Script** - A script for preparing and processing the training data for the model.
