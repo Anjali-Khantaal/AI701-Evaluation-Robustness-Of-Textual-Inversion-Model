@@ -136,6 +136,10 @@ pip install -r requirements.txt
   ```
   jupyter notebook multi_concept_inference.ipynb
   ```
+ 3.3. For evaluating generated outputs:
+   ```
+   jupyter notebook evaluation_metrix_updated.ipynb
+   ```
 
 ## Training Dataset
 The dataset used for training consists of images related to various **UAE-MBZUI themes**, categorized into the following groups:
