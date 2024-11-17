@@ -5,6 +5,7 @@ This repository contains <fill>:
 1. **SD Textual Inversion Training** - A notebook for training textual inversion models using state-of-the-art tools.
 2. **Multi-Concept Inference** - A notebook focused on inference tasks involving multiple concepts in AI models.
 3. <Ishita to fill>
+4. **Preprocessing Script** - A script for preparing and processing the training data for the model.
 
 All notebooks leverage cutting-edge frameworks such as PyTorch, HuggingFace, and more, providing robust tools for researchers and developers.
 
@@ -25,6 +26,19 @@ This notebook enables:
 - Efficient computation with advanced libraries like `torch`.
 
 ### 3. <Ishita to fill>
+
+
+### 4. Preprocessing Script
+This script handles data preprocessing for training. It prepares and formats raw data, applies transformations, and saves the processed data for the model training phase. The script applies various augmentations to the training dataset:
+
+- **Gaussian Noise**: Adds noise with adjustable severity (low, medium, high).
+- **Motion Blur**: Applies motion blur with varying kernel sizes.
+- **Color Jitter**: Randomly adjusts brightness, contrast, saturation, and hue of the image.
+- **Random Occlusion**: Randomly occludes portions of the image to simulate real-world occlusion scenarios.
+  
+The preprocessed data is stored in a folder named `Preprocessed`.
+
+
 
 ---
 
@@ -49,6 +63,8 @@ The following libraries are required to run both notebooks:
 - `torchvision`
 - `tqdm`
 - `transformers`
+- `opencv-python`
+
 
 ---
 
@@ -58,7 +74,7 @@ The following libraries are required to run both notebooks:
 Install the required libraries directly:
 
 ```bash
-pip install IPython pillow accelerate argparse diffusers huggingface_hub numpy torch torchvision tqdm transformers
+pip install IPython pillow accelerate argparse diffusers huggingface_hub numpy torch torchvision tqdm transformers opencv-python
 ```
 
 ## Using a requirements.txt file
@@ -75,6 +91,7 @@ torch
 torchvision
 tqdm
 transformers
+opencv-python
 
 Then run:
 ```
@@ -99,7 +116,35 @@ pip install -r requirements.txt
   jupyter notebook multi_concept_inference.ipynb
   ```
 
+## Training Dataset
+The dataset used for training consists of images related to various **UAE-MBZUI themes**, categorized into the following groups:
+
+- **MBZUAI-related Objects**: 5 objects (cup, logo, mainbuilding, papercup, bag)
+- **UAE Landmarks**: 3 objects (Burj Khalifa, Sheikh Zayed Grand Mosque, Emirates Palace)
+- **UAE Animals**: 4 objects (Falcon, Camel, Horse, Oryx)
+- **UAE Cuisine**: 3 objects (Harees, Balaleet, Luqimat)
+
+You can access the dataset from the following link: [Training Dataset](https://mbzuaiac-my.sharepoint.com/personal/anjali_khantaal_mbzuai_ac_ae/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Fanjali%5Fkhantaal%5Fmbzuai%5Fac%5Fae%2FDocuments%2FProjects%2FTraining%5FData)
+
+### How to Run the Preprocessing Script
+Follow these steps to run the preprocessing script:
+
+1. Place your training images
+Place your training images in a folder named Training_Dataset inside the root directory of the repository.
+
+2. Run the Preprocessing Script
+To run the preprocessing script, execute the following command in your terminal:
+   ```
+   python preprocessing.py
+   ```
+This script will:
+
+- Process the images in the Training_Dataset folder.
+- Apply augmentations with three different severity levels: low, medium, and high.
+- Save the preprocessed images in a new folder called `Preprocessed`.
+
 This project is inspired by the Textual-inversion model present on HuggingFace: <enter link>
+
 
 
 link to access output: https://mbzuaiac-my.sharepoint.com/:f:/r/personal/anjali_khantaal_mbzuai_ac_ae/Documents/Projects/Training_Outputs?csf=1&web=1&e=pabbcp
