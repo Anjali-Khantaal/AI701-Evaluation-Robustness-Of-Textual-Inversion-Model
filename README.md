@@ -83,6 +83,8 @@ The following libraries are required to run both notebooks:
 - `tqdm`
 - `transformers`
 - `opencv-python`
+- `pytorch_fid`
+- `scipy`
 
 
 ---
