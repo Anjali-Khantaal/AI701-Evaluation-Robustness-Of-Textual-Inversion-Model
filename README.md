@@ -32,8 +32,22 @@ This notebook enables:
 - Utilising pre-trained models with `diffusers` and `transformers`.
 - Efficient computation with advanced libraries like `torch`.
 
-### 3. <Ishita to fill>
+### 3. Evaluation
 
+This notebook facilitates:
+
+- **FID Score Evaluation**: Measures the similarity between real and generated images using Fréchet Inception Distance.
+- **CLIP Score Evaluation**: Evaluates the alignment of generated images with textual prompts using CLIP models.
+- **Concept Accuracy Evaluation**: Assesses adherence to specific concepts by combining ResNet predictions with CLIP-based similarity.
+
+It provides statistical insights and comprehensive performance metrics.  
+
+**Libraries Used**:  
+- `torch`: For model loading and computations.  
+- `torchvision`: For ResNet feature extraction and image processing.  
+- `transformers`: For CLIP model and processor.  
+- `scipy`: For distance calculations.   
+- `pytorch_fid`: For FID score computation.
 
 ### 4. Preprocessing Script
 This script handles data preprocessing for training. It prepares and formats raw data, applies transformations, and saves the processed data for the model training phase. The script applies various augmentations to the training dataset:
