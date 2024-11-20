@@ -2,10 +2,10 @@
 
 Sneakpeak into outputs:
 
-Image - 1of2:
+Image - 1of2 (single object textual inversion):
 ![image](https://github.com/user-attachments/assets/6849d1e6-9d24-4f9a-8d1f-b43e3823b18a)
 
-Image - 2of2:
+Image - 2of2 (multi concept inference):
 ![image](https://github.com/user-attachments/assets/bee93d14-e7cf-4a28-a3d1-ffb3c751a939)
 
 This repository contains <fill>:
