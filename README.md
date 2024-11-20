@@ -1,5 +1,13 @@
 # AI701: Robustness Evaluation Of Textual Inversion Model and Multi-Concept Inference
 
+Sneakpeak into outputs:
+
+Image - 1of2:
+![image](https://github.com/user-attachments/assets/6849d1e6-9d24-4f9a-8d1f-b43e3823b18a)
+
+Image - 2of2:
+![image](https://github.com/user-attachments/assets/bee93d14-e7cf-4a28-a3d1-ffb3c751a939)
+
 This repository contains <fill>:
 
 1. **SD Textual Inversion Training** - A notebook for training textual inversion models using state-of-the-art tools.
