@@ -178,10 +178,10 @@ This script will:
 - Apply augmentations with three different severity levels: low, medium, and high.
 - Save the preprocessed images in a new folder called `Preprocessed`.
 
-This project is inspired by the Textual-inversion model present on HuggingFace: <enter link>
+This project is inspired by the Textual-inversion model present on HuggingFace: <https://huggingface.co/docs/diffusers/en/using-diffusers/textual_inversion_inference>
 
 
 
-link to access output: https://mbzuaiac-my.sharepoint.com/:f:/r/personal/anjali_khantaal_mbzuai_ac_ae/Documents/Projects/Training_Outputs?csf=1&web=1&e=pabbcp
+link to access output:[Output](https://mbzuaiac-my.sharepoint.com/:f:/r/personal/anjali_khantaal_mbzuai_ac_ae/Documents/Projects/Training_Outputs?csf=1&web=1&e=pabbcp)
 
 link to report:
