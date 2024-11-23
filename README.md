@@ -10,17 +10,17 @@ Image - 2of2 (multi concept inference):
 
 This repository contains <fill>:
 
-1. **SD Textual Inversion Training** - A notebook for training textual inversion models using state-of-the-art tools.
-2. **Multi-Concept Inference** - A notebook focused on inference tasks involving multiple concepts in AI models.
-3. **Evaluataion Metrices** - This repository includes tools for evaluating AI-generated outputs using the following metrics:
+1. **Dataset** - A folder with all the inputs used for training and drawing inference.
+2. **Preprocessing Script** - A script for preparing and processing the training data for the model.
+3. **SD Textual Inversion Training** - A notebook for training textual inversion models using state-of-the-art tools.
+4. **Multi-Concept Inference** - A notebook focused on inference tasks involving multiple concepts in AI models.
+5. **Evaluataion Metrices** - Tools for evaluating AI-generated outputs using the following metrics:
    
      **FID Score**: Computes the Fréchet Inception Distance to measure similarity between real and generated images.
    
      **CLIP Score**: Evaluates alignment between images and predefined textual prompts using CLIP models.
    
      **Concept Accuracy Score**: Assesses adherence to specific concepts by combining ResNet predictions with CLIP-based similarity.
-   
-5. **Preprocessing Script** - A script for preparing and processing the training data for the model.
 
 All notebooks leverage cutting-edge frameworks such as PyTorch, HuggingFace, and more, providing robust tools for researchers and developers.
 
