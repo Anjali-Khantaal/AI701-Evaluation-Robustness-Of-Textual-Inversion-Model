@@ -1,4 +1,4 @@
-# AI701: Robustness Evaluation Of Textual Inversion Model and Multi-Concept Inference
+# AI701: Robustness Evaluation of Textual Inversion Model and Multi-Concept Inference
 
 Sneakpeak into outputs:
 
